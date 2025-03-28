@@ -9,9 +9,9 @@ from RessoMusic.core.userbot import assistants
 from config import LOG_GROUP_ID as AMBOTOP
 
 
-@app.on_message(filters.command(["leaveall1", f"leaveall1@{app.username}"]) & OWNER_ID)
+@app.on_message(filters.command(["leaveall1", f"leaveall1@{app.username}"]) & SUDOERS)
 async def leave_all(client, message):
-    if message.from_user.id not in OWNER_ID:
+    if message.from_user.id not in SUDOERS:
         return
 
     left = 0
@@ -43,9 +43,9 @@ async def leave_all(client, message):
         )
 
 
-@app.on_message(filters.command(["leaveall2", f"leaveall2@{app.username}"]) & OWNER_ID)
+@app.on_message(filters.command(["leaveall2", f"leaveall2@{app.username}"]) & SUDOERS)
 async def leave_all(client, message):
-    if message.from_user.id not in OWNER_ID:
+    if message.from_user.id not in SUDOERS:
         return
 
     left = 0
@@ -76,9 +76,9 @@ async def leave_all(client, message):
             f"✅ ʟᴇғᴛ ғʀᴏᴍ:* {left} chats.\n❌ ғᴀɪʟᴇᴅ ɪɴ:** {failed} chats.",
         )
 
-@app.on_message(filters.command(["leaveall3", f"leaveall3@{app.username}"]) & OWNER_ID)
+@app.on_message(filters.command(["leaveall3", f"leaveall3@{app.username}"]) & SUDOERS)
 async def leave_all(client, message):
-    if message.from_user.id not in OWNER_ID:
+    if message.from_user.id not in SUDOERS:
         return
 
     left = 0
@@ -110,9 +110,9 @@ async def leave_all(client, message):
         )
 
 
-@app.on_message(filters.command(["leaveall4", f"leaveall4@{app.username}"]) & OWNER_ID)
+@app.on_message(filters.command(["leaveall4", f"leaveall4@{app.username}"]) & SUDOERS)
 async def leave_all(client, message):
-    if message.from_user.id not in OWNER_ID:
+    if message.from_user.id not in SUDOERS:
         return
 
     left = 0
@@ -144,9 +144,9 @@ async def leave_all(client, message):
         )
 
 
-@app.on_message(filters.command(["leaveall5", f"leaveall5@{app.username}"]) & OWNER_ID)
+@app.on_message(filters.command(["leaveall5", f"leaveall5@{app.username}"]) & SUDOERS)
 async def leave_all(client, message):
-    if message.from_user.id not in OWNER_ID:
+    if message.from_user.id not in SUDOERS:
         return
 
     left = 0
