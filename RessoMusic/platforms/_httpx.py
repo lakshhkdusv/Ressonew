@@ -10,7 +10,7 @@ import aiofiles
 import httpx
 
 import config
-from AnonXMusic.logging import LOGGER
+from RessoMusic.logging import LOGGER
 
 
 @dataclass
